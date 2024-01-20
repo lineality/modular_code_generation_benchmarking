@@ -1,0 +1,45 @@
+
+body {
+    font-family: sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: green
+}
+
+.game-container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+}
+
+canvas {
+    display: block; /* Removes the extra space below canvas */
+}
+
+#gameBoard {
+    background-color: #dcdcdc; /* #FFD580; Light orange color */
+
+    /* Other canvas styles... */
+}
+
+/* For game-over text, you can specify a class and use it in your HTML or dynamically through JavaScript */
+.game-over {
+    font-family: monospace;
+    font-size: 24px;
+    color: pink;
+    /* other styling as needed */
+}
+
+/* If you have specific classes or IDs for text elements, set their font-family similarly */
+.some-text-class {
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: sans-serif;
+}
+
